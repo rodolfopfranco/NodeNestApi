@@ -1,19 +1,23 @@
 Installing NestJS:
-## npm i -g @nestjs/cli
+<b>npm i -g @nestjs/cli</b>
 
 Creating a Project:
-## nest new project-name
+<b> nest new project-name</b>
 
 Starting project:
-## npm start
+<b> npm start</b>
 
 Localhost address:
-## localhost:3000
+<b>localhost:3000</b>
 
-Creating a Module:
-## nest g module users
-## nest g controller users
-## nest g service users
+Creating a Resource:
+<b>nest g module users
+nest g controller users
+nest g service users</b>
+
+## Swagger
+Follow steps in
+https://docs.nestjs.com/openapi/introduction
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
