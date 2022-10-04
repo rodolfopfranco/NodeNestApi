@@ -21,7 +21,12 @@ https://docs.nestjs.com/openapi/introduction
 
 ## DB
 Follow steps in:
+https://docs.nestjs.com/techniques/database
 
+## Fast CRUD with Nestjsx
+https://github.com/nestjsx/crud
+https://www.npmjs.com/package/@nestjsx/crud
+https://www.npmjs.com/package/@nestjsx/crud-typeorm
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>

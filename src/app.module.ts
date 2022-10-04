@@ -3,9 +3,11 @@ import { UsersController } from './users/users.controller';
 import { UsersService } from './users/users.service';
 import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { User } from './users/user.entity';
 
 @Module({
   imports: [UsersModule,
+  TypeOrmModule.forFeature([User]),
   TypeOrmModule.forRoot({
     type: 'sqlite',
     database: ':memory:',
